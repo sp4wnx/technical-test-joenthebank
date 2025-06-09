@@ -1,0 +1,33 @@
+{
+  "name": "cruas/joenthejuice-bank",
+  "description": "Technical Test for Job Application at JoeNTheJuice",
+  "type": "project",
+  "require": {
+    "moneyphp/money-bundle": "^0.1.0",
+    "phpunit/phpunit": "^11.5",
+    "pestphp/pest": "^3.8",
+    "doctrine/orm": "^3.3",
+    "ramsey/uuid": "^4.8"
+  },
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "JoeJuiceBank\\": "src/",
+      "Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Celestino Ruas",
+      "email": "sp4wnx.dev@gmail.com"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "8.4.7"
+    },
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
